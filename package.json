@@ -2,8 +2,7 @@
   "name": "c-wrapper-test",
   "version": "1.0.0",
   "description": "c-wrapper-test",
-  "main": "my-cli.js",
-  "bin": "./my-cli.js",
+  "bin": "my-cli.js",
   "scripts": {
     "test": "test"
   },
@@ -18,6 +17,10 @@
   },
   "homepage": "https://github.com/tomkaar/c-wrapper-test#readme",
   "dependencies": {
+    "commitizen": "^2.7.6",
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "peerDependencies": {
     "commitizen": "^2.7.6",
     "cz-conventional-changelog": "^1.1.5"
   }
