@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "c-wrapper-test",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": "./my-cli.js",
   "scripts": {
     "test": "test"
   },
@@ -18,12 +18,7 @@
   },
   "homepage": "https://github.com/tomkaar/c-wrapper-test#readme",
   "dependencies": {
-    "@weahead/commitlint-config": "0.2.0",
-    "commitizen": "4.0.3",
-    "cz-conventional-changelog": "3.0.2"
-  },
-  "peerDependencies": {
-    "commitizen": "4.0.3",
-    "@weahead/commitlint-config": "0.2.0"
+    "commitizen": "^2.7.6",
+    "cz-conventional-changelog": "^1.1.5"
   }
 }
