@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/tomkaar/c-wrapper-test#readme",
   "dependencies": {
+    "@weahead/commitlint-config": "0.2.0",
     "commitizen": "4.0.3",
-    "@weahead/commitlint-config": "0.2.0"
+    "cz-conventional-changelog": "3.0.2"
   },
   "peerDependencies": {
     "commitizen": "4.0.3",

@@ -8,6 +8,6 @@ bootstrap({
   cliPath: path.join(__dirname, '../../node_modules/commitizen'),
   // this is new
   config: {
-    "path": "@weahead/commitlint-config"
+    "path": "cz-conventional-changelog"
   }
 });
