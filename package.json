@@ -2,7 +2,7 @@
   "name": "c-wrapper-test",
   "version": "1.0.0",
   "description": "c-wrapper-test",
-  "main": "index.js",
+  "main": "my-cli.js",
   "bin": "./my-cli.js",
   "scripts": {
     "test": "test"
